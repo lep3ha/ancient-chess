@@ -1,0 +1,40 @@
+# Build trees and dependency caches
+/build/
+/build-*/
+/cmake-build-*/
+/out/
+/Debug/
+/Release/
+/x64/
+/x86/
+/packages/
+CMakeUserPresets.json
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+
+# Visual Studio and compiler output
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+*.ipch
+*.obj
+*.o
+*.pdb
+*.idb
+*.ilk
+*.tlog/
+*.exe
+*.dll
+*.lib
+*.a
+*.so
+*.dylib
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
